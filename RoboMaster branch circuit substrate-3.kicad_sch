@@ -1,0 +1,2306 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "46fb4303-d3b2-4bbf-9b92-77c468bcf18e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x04_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Socket"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Socket_1_1"
+				(arc
+					(start 0 -4.572)
+					(mid -0.5058 -5.08)
+					(end 0 -5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.048)
+					(mid -0.5058 2.54)
+					(end 0 2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 119.38 80.264) (xy 114.554 80.264)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0109b06f-4d40-432e-82f7-3fc3de80ee96")
+	)
+	(wire
+		(pts
+			(xy 182.372 75.184) (xy 190.754 75.184)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d58447-4c66-4fa1-a2a9-e15fc3035a79")
+	)
+	(wire
+		(pts
+			(xy 182.372 80.264) (xy 190.754 80.264)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b5298fc-ccbc-48a6-8b8a-d8f3479536dd")
+	)
+	(wire
+		(pts
+			(xy 182.372 77.724) (xy 190.754 77.724)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "134f3d82-9090-4fe0-8f84-912da14aa149")
+	)
+	(wire
+		(pts
+			(xy 119.634 101.092) (xy 114.808 101.092)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "183714e7-0cd8-49f4-9f64-9eeb2bfc02eb")
+	)
+	(wire
+		(pts
+			(xy 100.838 83.058) (xy 105.664 83.058)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d5e9ed0-f955-48a6-8c15-441a3a590ee4")
+	)
+	(wire
+		(pts
+			(xy 225.552 97.536) (xy 217.17 97.536)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41487150-87f0-4ec7-a5ac-f6cc81b4fba3")
+	)
+	(wire
+		(pts
+			(xy 119.634 91.948) (xy 114.808 91.948)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb3d7f6-62d3-4f89-ba19-4919e5547053")
+	)
+	(wire
+		(pts
+			(xy 182.626 93.98) (xy 191.008 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a910de7-3293-4f43-9d0a-cdafc6312f61")
+	)
+	(wire
+		(pts
+			(xy 225.298 76.708) (xy 216.916 76.708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e93a996-83b4-4b3e-aacc-2004a2ea270f")
+	)
+	(wire
+		(pts
+			(xy 100.838 89.662) (xy 105.664 89.662)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b306649-19b2-49b6-921a-cad9a6491bc3")
+	)
+	(wire
+		(pts
+			(xy 100.838 92.202) (xy 105.664 92.202)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56f432b-8641-4bc0-ad8a-3c54e1267c99")
+	)
+	(wire
+		(pts
+			(xy 119.38 82.804) (xy 114.554 82.804)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f8d4fd-deb7-4ad9-aec5-8e42605e65b8")
+	)
+	(wire
+		(pts
+			(xy 182.626 91.44) (xy 191.008 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abce1af9-29fa-495b-a7c9-9488e932ba35")
+	)
+	(wire
+		(pts
+			(xy 182.626 99.06) (xy 191.008 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d8f9a6-5d03-4e5a-bc3a-e171ca15e3f4")
+	)
+	(wire
+		(pts
+			(xy 225.552 85.852) (xy 217.17 85.852)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8c03c2-4d2e-477d-a911-90526fa8287a")
+	)
+	(wire
+		(pts
+			(xy 225.298 79.248) (xy 216.916 79.248)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d970438a-8595-4e86-88af-ad49b3deebe8")
+	)
+	(wire
+		(pts
+			(xy 225.552 88.392) (xy 217.17 88.392)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa1f2d8-4f71-4b1d-8542-0e4670b3ee04")
+	)
+	(wire
+		(pts
+			(xy 119.634 98.552) (xy 114.808 98.552)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0054e1-f0c1-460a-900e-c0d2d881faaa")
+	)
+	(wire
+		(pts
+			(xy 182.626 96.52) (xy 191.008 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e5e543-6930-4744-8db6-763cf73209c4")
+	)
+	(wire
+		(pts
+			(xy 100.838 80.518) (xy 105.664 80.518)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8bae638-7bc2-41de-ae41-e6a4bb90d310")
+	)
+	(wire
+		(pts
+			(xy 225.552 94.996) (xy 217.17 94.996)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf55ecf-d661-4a15-af93-32f920d9fcb2")
+	)
+	(wire
+		(pts
+			(xy 119.634 89.408) (xy 114.808 89.408)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb392dcd-1135-4130-81b1-cb198a923b92")
+	)
+	(wire
+		(pts
+			(xy 182.372 72.644) (xy 190.754 72.644)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3a2767-3fce-40bd-8453-7d72bd321974")
+	)
+	(rectangle
+		(start 164.846 57.404)
+		(end 249.682 109.474)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1823d5fd-98d0-4a83-a585-f23bb9a971c9)
+	)
+	(rectangle
+		(start 73.406 58.928)
+		(end 151.638 108.966)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3c1222ab-7549-4355-9b62-543ba9446a5b)
+	)
+	(text "Power"
+		(exclude_from_sim no)
+		(at 82.042 65.532 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "32252ed2-0c88-4ff3-b991-8c3bfbb3a0e9")
+	)
+	(text "Signal"
+		(exclude_from_sim no)
+		(at 172.466 62.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b937f6d9-df23-4b21-b918-55795569d92d")
+	)
+	(label "-"
+		(at 114.808 101.092 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "045a1f57-05a6-4704-8cf1-10e0bed7a412")
+	)
+	(label "RX"
+		(at 191.008 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0639e323-0d72-42a2-81a6-55649bd9857b")
+	)
+	(label "-"
+		(at 114.808 91.948 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d6af90a-8e6f-46d5-be16-e1bd2e890ede")
+	)
+	(label "+"
+		(at 105.664 89.662 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2383f3af-5ed6-40de-be87-6240479d8177")
+	)
+	(label "-"
+		(at 105.664 83.058 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2d44164e-dcf0-44cc-ab34-d599e6cac3b9")
+	)
+	(label "+"
+		(at 114.808 89.408 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "459e1745-eff3-4dad-b5f4-5fbcfa1d9314")
+	)
+	(label "RX"
+		(at 216.916 79.248 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b2147ad-0349-4709-b60c-5a52c9558446")
+	)
+	(label "TX"
+		(at 216.916 76.708 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f83a035-b4b1-42ed-a00d-3cf02d138f55")
+	)
+	(label "RX"
+		(at 190.754 77.724 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6444845e-e8b0-4c83-b470-0f5f31858859")
+	)
+	(label "+"
+		(at 105.664 80.518 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "756dcde8-35d0-476c-ad34-a3c637e2f308")
+	)
+	(label "-"
+		(at 114.554 82.804 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "798cdeca-0982-4a97-8a5c-6f754fef3dd8")
+	)
+	(label "+"
+		(at 114.554 80.264 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98368b26-43c0-453d-9e71-34873a15e6d2")
+	)
+	(label "TX"
+		(at 217.17 85.852 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b49a830-dcda-46d9-a4ca-383d26d35dd6")
+	)
+	(label "+"
+		(at 114.808 98.552 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a23b364c-a901-4434-9a8a-bdf4bc83ef59")
+	)
+	(label "-"
+		(at 105.664 92.202 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bfb67767-5a61-4ae8-bad1-e4d65ebb005c")
+	)
+	(label "TX"
+		(at 191.008 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e2f7baa4-ac02-49ca-a866-f821e69399eb")
+	)
+	(label "RX"
+		(at 217.17 97.536 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4eaa384-4a36-4306-9ff7-2f35a08334a3")
+	)
+	(label "RX"
+		(at 217.17 88.392 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4ef73f0-63e5-42ed-8f62-a0e321f14ece")
+	)
+	(label "TX"
+		(at 217.17 94.996 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f62b2ee0-56fe-438d-9be7-08f3706829a9")
+	)
+	(label "TX"
+		(at 190.754 75.184 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f6e242f0-1a77-4b2f-89ff-86d2a243aedc")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 124.46 80.264 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04067f0d-80c8-4388-8c59-e6f3328b4b0a")
+		(property "Reference" "J3"
+			(at 123.825 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 123.825 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 124.46 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 124.46 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed176c83-63f2-48ba-ad40-eccbdae9e97c")
+		)
+		(pin "1"
+			(uuid "f8d715ce-6442-4516-8f20-7b51709a6157")
+		)
+		(instances
+			(project "RoboMaster branch circuit substrate-2"
+				(path "/46fb4303-d3b2-4bbf-9b92-77c468bcf18e"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.008 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "175abc80-656d-497b-a3ec-d2bcd580cd6b")
+		(property "Reference" "#PWR04"
+			(at 191.008 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.008 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.008 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.008 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.008 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "763da55b-7f86-456c-93ea-15fb33238997")
+		)
+		(instances
+			(project "RoboMaster branch circuit substrate-2"
+				(path "/46fb4303-d3b2-4bbf-9b92-77c468bcf18e"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 163.068 118.872 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "184df0a1-657e-4a0d-9988-fa10942ba86d")
+		(property "Reference" "H2"
+			(at 166.37 117.6019 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 166.37 120.1419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 163.068 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.068 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 163.068 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/46fb4303-d3b2-4bbf-9b92-77c468bcf18e"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 177.292 75.184 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39259582-5a6e-4bef-b40e-bc4e1f608c19")
+		(property "Reference" "J6"
+			(at 177.927 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 177.927 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XA_S04B-XASK-1_1x04_P2.50mm_Horizontal"
+			(at 177.292 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.292 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 177.292 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2e98d274-ecfe-4e99-9ebc-fc87ce945fca")
+		)
+		(pin "3"
+			(uuid "8115b74e-a532-4186-8369-313cb2555112")
+		)
+		(pin "1"
+			(uuid "9ea7b72f-ada9-47a3-a508-f5c871c998e8")
+		)
+		(pin "2"
+			(uuid "844bb7f0-aae5-4e18-bff0-83a6d748a9de")
+		)
+		(instances
+			(project ""
+				(path "/46fb4303-d3b2-4bbf-9b92-77c468bcf18e"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 162.814 125.476 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "394750f1-f86f-4b3a-b8a0-3d8362c9415b")
+		(property "Reference" "H1"
+			(at 166.116 124.2059 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 166.116 126.7459 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 162.814 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.814 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 162.814 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RoboMaster branch circuit substrate-2"
+				(path "/46fb4303-d3b2-4bbf-9b92-77c468bcf18e"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 230.632 94.996 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68d31cf0-6bba-4ff9-b989-2e057cf0e81e")
+		(property "Reference" "J10"
+			(at 229.997 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 229.997 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical"
+			(at 230.632 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 230.632 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 230.632 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9ea2bb3-cb2d-49d9-a21f-80c8d4f420fe")
+		)
+		(pin "1"
+			(uuid "10f06cdd-1466-4415-ad66-71aaa7ad163c")
+		)
+		(instances
+			(project "RoboMaster branch circuit substrate-3"
+				(path "/46fb4303-d3b2-4bbf-9b92-77c468bcf18e"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 124.714 89.408 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68da58ab-915d-403d-89ba-17db5fd6ad48")
+		(property "Reference" "J4"
+			(at 124.079 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 124.079 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 124.714 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.714 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 124.714 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8445ff36-282e-40d9-b6d7-96a04f594954")
+		)
+		(pin "1"
+			(uuid "dd3c85f5-d40e-4a9e-91ca-8a553c59b0ab")
+		)
+		(instances
+			(project "RoboMaster branch circuit substrate-2"
+				(path "/46fb4303-d3b2-4bbf-9b92-77c468bcf18e"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 230.632 85.852 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8166996f-db3b-4937-b3bd-c84ef84ec491")
+		(property "Reference" "J9"
+			(at 229.997 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 229.997 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical"
+			(at 230.632 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 230.632 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 230.632 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d339877-710a-497e-8906-9d1befb8fd05")
+		)
+		(pin "1"
+			(uuid "84a81dd1-106d-417a-849a-354eed665c23")
+		)
+		(instances
+			(project "RoboMaster branch circuit substrate-2"
+				(path "/46fb4303-d3b2-4bbf-9b92-77c468bcf18e"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 124.714 98.552 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b83d1ad-95c9-46a3-9ab9-6e89298ef173")
+		(property "Reference" "J5"
+			(at 124.079 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 124.079 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 124.714 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.714 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 124.714 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "57b052f2-a922-4ff7-bcc5-65fe889e84d3")
+		)
+		(pin "1"
+			(uuid "f81abaac-9646-472f-8f7d-dfbcc8b273d3")
+		)
+		(instances
+			(project "RoboMaster branch circuit substrate-3"
+				(path "/46fb4303-d3b2-4bbf-9b92-77c468bcf18e"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 95.758 80.518 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98dc4372-2a29-4a45-85e8-14575050b75f")
+		(property "Reference" "J1"
+			(at 96.393 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 96.393 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
+			(at 95.758 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.758 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 95.758 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b933b58d-bb1e-4095-ac82-7820ca6aae16")
+		)
+		(pin "1"
+			(uuid "430b19cb-e7e5-486f-bcf2-f0acad3c405a")
+		)
+		(instances
+			(project ""
+				(path "/46fb4303-d3b2-4bbf-9b92-77c468bcf18e"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 191.008 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a652434c-2ce2-4d5e-874f-0f0254b55003")
+		(property "Reference" "#PWR03"
+			(at 191.008 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 191.008 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.008 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.008 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 191.008 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fd55864-6b2a-4020-93ca-aae32abaa6a5")
+		)
+		(instances
+			(project "RoboMaster branch circuit substrate-2"
+				(path "/46fb4303-d3b2-4bbf-9b92-77c468bcf18e"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.754 80.264 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3ad1eb3-5205-444e-b8c1-8b7b657950cf")
+		(property "Reference" "#PWR02"
+			(at 190.754 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.754 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.754 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.754 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.754 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83f4f23b-a2cd-47ff-96bb-00124faf96c1")
+		)
+		(instances
+			(project ""
+				(path "/46fb4303-d3b2-4bbf-9b92-77c468bcf18e"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 190.754 72.644 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbe69985-a498-4e28-9d29-5017ce1c2a57")
+		(property "Reference" "#PWR01"
+			(at 190.754 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 190.754 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.754 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.754 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 190.754 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e74fa6a4-42e2-4a12-b052-4b0d3bd25f0b")
+		)
+		(instances
+			(project ""
+				(path "/46fb4303-d3b2-4bbf-9b92-77c468bcf18e"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 230.378 76.708 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eadf4520-5ab0-4182-92e3-247072aa52c2")
+		(property "Reference" "J8"
+			(at 229.743 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 229.743 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical"
+			(at 230.378 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 230.378 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 230.378 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49fea403-a5f4-4d0c-bd8d-c03a27fd244f")
+		)
+		(pin "1"
+			(uuid "1f2834de-785a-4f20-b7a4-d2f78650f50f")
+		)
+		(instances
+			(project "RoboMaster branch circuit substrate-2"
+				(path "/46fb4303-d3b2-4bbf-9b92-77c468bcf18e"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 95.758 89.662 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcda5124-b787-485c-a457-8fe49e21e630")
+		(property "Reference" "J2"
+			(at 96.393 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 96.393 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 95.758 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.758 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 95.758 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eca5dbbe-f31b-4f87-a43c-387692b6499b")
+		)
+		(pin "1"
+			(uuid "3f62fb73-2058-43ae-9345-e719e815a58f")
+		)
+		(instances
+			(project "RoboMaster branch circuit substrate-2"
+				(path "/46fb4303-d3b2-4bbf-9b92-77c468bcf18e"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 177.546 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd00c1d1-818a-4744-91cc-8ccb12dd0f9c")
+		(property "Reference" "J7"
+			(at 178.181 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 178.181 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XA_S04B-XASK-1_1x04_P2.50mm_Horizontal"
+			(at 177.546 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.546 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 177.546 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3a22c1b8-e641-40a6-9b96-2a2202cfbc80")
+		)
+		(pin "3"
+			(uuid "b6bc9e91-19e1-44f2-aa34-0c0026b662cd")
+		)
+		(pin "1"
+			(uuid "8353316e-6ec4-4e28-84cc-1557e7825b9c")
+		)
+		(pin "2"
+			(uuid "d38feb8f-e1b0-4f1c-99f0-6425aa6405e0")
+		)
+		(instances
+			(project "RoboMaster branch circuit substrate-2"
+				(path "/46fb4303-d3b2-4bbf-9b92-77c468bcf18e"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
